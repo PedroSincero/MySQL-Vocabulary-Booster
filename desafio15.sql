@@ -5,5 +5,5 @@ FROM
   hr.employees AS e
   INNER JOIN hr.jobs AS j ON j.JOB_TITLE = param_cargo
 WHERE
-  j.JOB_ID = E.JOB_ID;
+  j.JOB_ID = e.JOB_ID;
 END $ $ DELIMITER;
