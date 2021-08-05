@@ -8,5 +8,4 @@ WHERE
   e.EMPLOYEE_ID = jh.EMPLOYEE_ID INTO result;
 RETURN result;
 END $ $ DELIMITER;
-
 -- Agradecimentos a Denis Rossati Turma 10, Tribo B, por ter me auxiliado na elaboração deste requisito e de mais outros
